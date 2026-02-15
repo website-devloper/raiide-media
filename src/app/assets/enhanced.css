@@ -1,0 +1,356 @@
+/* ========================================
+   ENHANCED PRICING SECTIONS - BRAND COLORS
+   ======================================== */
+
+/* Using website theme colors:
+   Primary: #d60048 (pink/red)
+   Heading: #ffffff (white for dark theme)
+   Text: #9E9FA0 (light gray)
+   Background: Dark theme
+*/
+
+/* Most Popular Badge - Using Brand Color */
+.badge-popular {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: linear-gradient(135deg, #d60048 0%, #b8003d 100%);
+    color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(214, 0, 72, 0.4);
+    z-index: 10;
+    animation: badgePulse 2s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 4px 15px rgba(214, 0, 72, 0.4);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(214, 0, 72, 0.6);
+    }
+}
+
+/* Enhanced Pricing Cards */
+.agenko-pricing-item.style-three {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.agenko-pricing-item.style-three:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(214, 0, 72, 0.15);
+}
+
+/* Subtle shine effect on hover */
+.agenko-pricing-item.style-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(214, 0, 72, 0.05), transparent);
+    transition: left 0.6s;
+    pointer-events: none;
+}
+
+.agenko-pricing-item.style-three:hover::before {
+    left: 100%;
+}
+
+/* Enhanced Price Display - SMALLER SIZE */
+.agenko-pricing-item.style-three .pricing-head .price {
+    color: #d60048;
+    font-weight: 700;
+    font-size: 32px !important;
+    transition: all 0.3s ease;
+}
+
+.agenko-pricing-item.style-three:hover .pricing-head .price {
+    transform: scale(1.03);
+}
+
+/* Plan Name Enhancement - LIGHTER COLOR */
+.agenko-pricing-item.style-three .pricing-head .plan {
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Sub-heading in pricing - LIGHTER COLOR */
+.pricing-head h3.sub-heading {
+    font-size: 12px;
+    color: #9E9FA0 !important;
+    margin: 8px 0 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Enhanced Check Icons - Brand Color */
+.agenko-pricing-item .check-list.style-one li {
+    transition: all 0.2s ease;
+    color: #9E9FA0 !important;
+}
+
+.agenko-pricing-item .check-list.style-one li i {
+    transition: all 0.3s ease;
+    color: #d60048 !important;
+    font-size: 16px;
+}
+
+.agenko-pricing-item:hover .check-list.style-one li i {
+    transform: scale(1.15);
+}
+
+/* Note section in pricing body - LIGHTER COLOR */
+.pricing-body .note {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(158, 159, 160, 0.15);
+    font-size: 13px;
+    color: #9E9FA0 !important;
+}
+
+.pricing-body .note strong {
+    color: #ffffff !important;
+}
+
+/* Enhanced Buttons - Brand Color */
+.agenko-pricing-item .theme-btn.style-two {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #d60048 !important;
+    border-color: #d60048 !important;
+}
+
+.agenko-pricing-item .theme-btn.style-two:hover {
+    background: #b8003d !important;
+    border-color: #b8003d !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(214, 0, 72, 0.4);
+}
+
+/* Button ripple effect */
+.agenko-pricing-item .theme-btn.style-two::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.agenko-pricing-item .theme-btn.style-two:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* Section Title Enhancements - Brand Color */
+.agenko-pricing .section-title .sub-title {
+    display: inline-block;
+    padding: 6px 20px;
+    background: linear-gradient(135deg, #d60048 0%, #b8003d 100%);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 15px rgba(214, 0, 72, 0.25);
+}
+
+.agenko-pricing .section-title h2 {
+    color: #ffffff !important;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Smooth Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pf_fadeup {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.pf_zoomIn {
+    animation: zoomIn 0.6s ease-out;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Pricing Feature List Enhancement - LIGHTER COLOR */
+.agenko-pricing-item .check-list.style-one li {
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    color: #9E9FA0 !important;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.agenko-pricing-item .check-list.style-one li i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .badge-popular {
+        font-size: 9px;
+        padding: 5px 12px;
+        top: -10px;
+        right: 15px;
+    }
+
+    .agenko-pricing-item.style-three {
+        margin-bottom: 30px;
+    }
+
+    .pricing-head h3.sub-heading {
+        font-size: 11px;
+    }
+
+    .agenko-pricing-item.style-three .pricing-head .price {
+        font-size: 28px !important;
+    }
+}
+
+/* Hover state for entire pricing section */
+.agenko-pricing-item.style-three:hover {
+    border-color: rgba(214, 0, 72, 0.3);
+}
+
+/* Add subtle border accent on hover */
+.agenko-pricing-item.style-three::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #d60048 0%, #b8003d 100%);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.agenko-pricing-item.style-three:hover::after {
+    transform: scaleX(1);
+}
+
+/* ========================================
+   ENHANCED OTHER SECTIONS
+   ======================================== */
+
+/* Services Section Enhancement */
+.agenko-service-item {
+    transition: all 0.3s ease;
+}
+
+.agenko-service-item:hover {
+    transform: translateY(-5px);
+}
+
+.agenko-service-item h4 {
+    color: #ffffff !important;
+}
+
+.agenko-service-item p {
+    color: #9E9FA0 !important;
+}
+
+/* About Section Enhancement */
+.agenko-about h2,
+.agenko-about h3 {
+    color: #ffffff !important;
+}
+
+.agenko-about p {
+    color: #9E9FA0 !important;
+}
+
+/* Counter Enhancement */
+.agenko-counter-item .count {
+    color: #d60048 !important;
+}
+
+.agenko-counter-item p {
+    color: #9E9FA0 !important;
+}
+
+/* Testimonial Enhancement */
+.agenko-testimonial-item {
+    transition: all 0.3s ease;
+}
+
+.agenko-testimonial-item:hover {
+    transform: translateY(-5px);
+}
+
+.agenko-testimonial-item h4 {
+    color: #ffffff !important;
+}
+
+.agenko-testimonial-item p {
+    color: #9E9FA0 !important;
+}
+
+/* FAQ Enhancement */
+.accordion-button {
+    color: #ffffff !important;
+}
+
+.accordion-body {
+    color: #9E9FA0 !important;
+}
+
+/* Portfolio/Project Enhancement */
+.agenko-project-item h4 {
+    color: #ffffff !important;
+}
+
+.agenko-project-item p {
+    color: #9E9FA0 !important;
+}
