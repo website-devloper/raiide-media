@@ -17,6 +17,11 @@ import ReelsPacks from '../Components/Pricing/ReelsPacks';
 import PersonalBrandingPacks from '../Components/Pricing/PersonalBrandingPacks';
 import PodcastPacks from '../Components/Pricing/PodcastPacks';
 
+export const metadata = {
+    title: 'Home | Raiide Media',
+    description: 'Grow your brand with Raiide Media, the all-in-one digital agency for content creation, strategy, and performance marketing. We help you dominate social media and scale your business.',
+};
+
 const page = () => {
     return (
         <main className="home2-premium">

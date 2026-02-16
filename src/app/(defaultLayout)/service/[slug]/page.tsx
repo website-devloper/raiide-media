@@ -14,6 +14,38 @@ export async function generateStaticParams() {
     }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const service = servicesData[slug];
+
+    if (!service) {
+        return {
+            title: 'Service Not Found',
+        };
+    }
+
+    return {
+        title: service.title,
+        description: service.description,
+        openGraph: {
+            title: `${service.title} | Raiide Media`,
+            description: service.description,
+            images: [
+                {
+                    url: service.image,
+                    alt: service.title,
+                },
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: `${service.title} | Raiide Media`,
+            description: service.description,
+            images: [service.image],
+        },
+    };
+}
+
 const ServiceDetailsPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
     const { slug } = await params;
     const service = servicesData[slug];

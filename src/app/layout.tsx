@@ -19,25 +19,48 @@ const roboto = Roboto({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://raiidemedia.com/'),
   title: {
-    absolute: '',
-    default: 'Raiide Media | Creative Digital Agency',
+    default: 'Raiide Media | Full-Service Digital Agency',
     template: '%s | Raiide Media',
   },
-  description: 'Raiide Media is a creative digital agency focused on strategy, content, branding, and performance marketing.',
+  description: 'Raiide Media is a leading digital agency offering comprehensive strategy, content creation, branding, photography, video production, and performance marketing solutions. We empower brands to dominate the digital landscape.',
+  keywords: ['Digital Agency', 'Content Creation', 'Photography', 'Video Production', 'Visual Identity', 'Digital Marketing', 'Social Media Marketing', 'Raiide Media', 'Branding Strategy'],
+  authors: [{ name: 'Raiide Media' }],
+  creator: 'Raiide Media',
+  publisher: 'Raiide Media',
+  icons: {
+    icon: '/assets/images/creative-agency/logo/logo raide.png',
+    shortcut: '/favicon.ico',
+    apple: '/assets/images/creative-agency/logo/logo raide.png',
+  },
   openGraph: {
-    title: 'Raiide Media | Creative Digital Agency',
-    description: 'Raiide Media is a creative digital agency focused on strategy, content, branding, and performance marketing.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://raiidemedia.com/',
+    siteName: 'Raiide Media',
+    title: 'Raiide Media | Full-Service Digital Agency',
+    description: 'Transform your brand with Raiide Media. We provide end-to-end digital solutions from creative content to performance marketing.',
+    images: [
+      {
+        url: '/assets/images/creative-agency/logo/logo raide.png',
+        width: 1200,
+        height: 630,
+        alt: 'Raiide Media Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Raiide Media | Full-Service Digital Agency',
+    description: 'Empowering brands with strategy, content, and performance marketing.',
+    images: ['/assets/images/creative-agency/logo/logo raide.png'],
   },
 };
 
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
-      <head>
-        <meta name="author" content="Raiide Media" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
       <body className={`${source_sans.variable} ${roboto.variable}`}>
         <AosInit />
         {children}

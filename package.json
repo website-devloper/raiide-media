@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "node -e \"const fs = require('fs'); const path = 'node_modules/next/dist/lib/server-external-packages.json'; if (fs.existsSync(path)) fs.copyFileSync(path, path + 'c')\""
   },
   "dependencies": {
     "aos": "^2.3.4",

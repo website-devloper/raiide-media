@@ -10,6 +10,11 @@ import Award1 from '../Components/Award/Award1';
 import Testimonial1 from '../Components/Testimonial/Testimonial1';
 import Blog1 from '../Components/Blog/Blog1';
 
+export const metadata = {
+    title: 'Home V3 | Raiide Media',
+    description: 'Raiide Media - Creative Digital Solutions. High-impact video, branding, and marketing strategies for modern businesses.',
+};
+
 const page = () => {
     return (
         <div>
@@ -22,7 +27,7 @@ const page = () => {
             <Team1></Team1>
             <Award1></Award1>
             <Testimonial1></Testimonial1>
-            <Blog1></Blog1>           
+            <Blog1></Blog1>
         </div>
     );
 };
