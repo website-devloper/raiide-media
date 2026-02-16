@@ -30,8 +30,10 @@ export const metadata = {
   creator: 'Raiide Media',
   publisher: 'Raiide Media',
   icons: {
-    icon: '/assets/images/creative-agency/logo/logo raide.png',
-    shortcut: '/favicon.ico',
+    icon: [
+      { url: '/icon.png' },
+      { url: '/assets/images/creative-agency/logo/logo raide.png', sizes: '32x32', type: 'image/png' },
+    ],
     apple: '/assets/images/creative-agency/logo/logo raide.png',
   },
   openGraph: {
