@@ -31,21 +31,9 @@ const HeroBanner1 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hero-man-image-container" data-aos="fade-left" data-aos-delay="400">
-                    <Image
-                        className="hero-man-img"
-                        src="/assets/images/creative-agency/hero/hero-man.png"
-                        alt="Raiide Media Representative"
-                        width={700}
-                        height={900}
-                        priority
-                    />
-                </div>
             </div>
         </section>
     );
 };
 
 export default HeroBanner1;
-
-

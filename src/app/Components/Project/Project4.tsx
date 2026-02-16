@@ -100,8 +100,8 @@ const Project4 = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title text-center mb-40" data-aos="fade-up" data-aos-duration="1000">
-                            <span className="sub-title" data-aos="zoom-in" data-aos-delay="100">Our Projects</span>
-                            <h2 data-aos="fade-up" data-aos-delay="180">Portfolio Showcase</h2>
+                            <span className="sub-title" data-aos="zoom-in" data-aos-delay="100">Showcase</span>
+                            <h2 data-aos="fade-up" data-aos-delay="180">Portfolio Work</h2>
                         </div>
                     </div>
                 </div>

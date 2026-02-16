@@ -17,12 +17,10 @@ const ReelsShowcase = () => {
         'https://youtube.com/shorts/ff_uNbPyx30?si=Mxbq-_69srlDK8qM',
     ];
 
-    const [showMore, setShowMore] = useState(false);
+    const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
 
     const getEmbedUrl = (url: string) => {
         try {
-            // Extract Video ID from YouTube Shorts URL
-            // Format: https://youtube.com/shorts/VIDEO_ID?feature=share
             const parts = url.split('/shorts/');
             if (parts.length > 1) {
                 const queryParams = parts[1].split('?');
@@ -36,8 +34,14 @@ const ReelsShowcase = () => {
         }
     };
 
-    const visibleReels = showMore ? reelsUrls : reelsUrls.slice(0, INITIAL_VISIBLE);
-    const hasMore = reelsUrls.length > INITIAL_VISIBLE;
+    const visibleReels = reelsUrls.slice(0, visibleCount);
+    const hasMore = visibleCount < reelsUrls.length;
+
+    const handleLoadMore = () => {
+        setVisibleCount((prev) => Math.min(prev + INITIAL_VISIBLE, reelsUrls.length));
+    };
+
+    const cardEffects = ['zoom-in-up', 'fade-up', 'fade-left', 'fade-right'];
 
     return (
         <section className="video-showcase-section pt-130 pb-100">
@@ -50,23 +54,29 @@ const ReelsShowcase = () => {
 
                     <div className="video-inline-grid" style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
-                        gap: '20px'
+                        gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                        gap: '24px'
                     }}>
                         {visibleReels.map((url, index) => {
                             const embedUrl = getEmbedUrl(url);
                             if (!embedUrl) return null;
 
                             return (
-                                <div key={index} className="video-card video-card-inline" style={{
-                                    position: 'relative',
-                                    paddingBottom: '177.77%', // 16:9 Aspect Ratio (9/16 = 0.5625, inverse for height 177%)
-                                    // Actually for 9:16 vertical it's 16/9 = 1.777
-                                    height: 0,
-                                    overflow: 'hidden',
-                                    borderRadius: '15px',
-                                    boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                                }}>
+                                <div
+                                    key={url}
+                                    className="video-card video-card-inline"
+                                    data-aos={cardEffects[index % cardEffects.length]}
+                                    data-aos-delay={(index % 4) * 100}
+                                    style={{
+                                        position: 'relative',
+                                        paddingBottom: '177.77%',
+                                        height: 0,
+                                        overflow: 'hidden',
+                                        borderRadius: '15px',
+                                        boxShadow: '0 15px 35px rgba(0,0,0,0.2)',
+                                        transition: 'transform 0.3s ease'
+                                    }}
+                                >
                                     <iframe
                                         src={embedUrl}
                                         title={`Reel ${index + 1}`}
@@ -87,13 +97,13 @@ const ReelsShowcase = () => {
                     </div>
 
                     {hasMore && (
-                        <div className="text-center mt-30">
+                        <div className="text-center mt-40">
                             <button
                                 type="button"
                                 className="theme-btn style-two"
-                                onClick={() => setShowMore((prev) => !prev)}
+                                onClick={handleLoadMore}
                             >
-                                {showMore ? 'View Less' : 'View More'}
+                                Load More
                             </button>
                         </div>
                     )}

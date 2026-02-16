@@ -47,6 +47,11 @@ export default function Nav({ setMobileToggle }: any) {
           Portfolio
         </Link>
       </li>
+      <li className={isActive('/our-studios') ? 'current-menu-item' : ''}>
+        <Link href="/our-studios" onClick={closeMobile}>
+          Our Studios
+        </Link>
+      </li>
       <li className={isActive('/packs') ? 'current-menu-item' : ''}>
         <Link href="/packs" onClick={closeMobile}>
           Packs
