@@ -14,8 +14,9 @@ export async function generateStaticParams() {
     }));
 }
 
-const ServiceDetailsPage = ({ params }: { params: { slug: string } }) => {
-    const service = servicesData[params.slug];
+const ServiceDetailsPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
+    const { slug } = await params;
+    const service = servicesData[slug];
 
     if (!service) {
         notFound();
