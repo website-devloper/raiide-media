@@ -14,7 +14,12 @@ export async function generateStaticParams() {
     }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+interface PageProps {
+    params: Promise<{ slug: string }>;
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}
+
+export async function generateMetadata({ params }: PageProps) {
     const { slug } = await params;
     const service = servicesData[slug];
 
@@ -46,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
 }
 
-const ServiceDetailsPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
+const ServiceDetailsPage = async ({ params }: PageProps) => {
     const { slug } = await params;
     const service = servicesData[slug];
 
