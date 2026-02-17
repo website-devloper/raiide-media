@@ -28,7 +28,7 @@ export const servicesData: Record<string, ServiceData> = {
             'Visual Asset Design',
             'Content Calendar Management'
         ],
-        image: '/assets/images/pages/service/single-service1.jpg',
+        image: '/assets/images/creative-agency/gallery/contentcreation.jpg',
         stats: {
             projects: 120,
             satisfaction: 98
@@ -59,7 +59,7 @@ export const servicesData: Record<string, ServiceData> = {
             'High-End Retouching',
             'Studio & On-Location Shoots'
         ],
-        image: '/assets/images/pages/service/single-service1.jpg',
+        image: '/assets/images/creative-agency/gallery/photography.jpg',
         stats: {
             projects: 85,
             satisfaction: 99
@@ -90,7 +90,7 @@ export const servicesData: Record<string, ServiceData> = {
             'Brand Guidelines (Style Guides)',
             'Marketing Collateral Design'
         ],
-        image: '/assets/images/pages/service/single-service1.jpg',
+        image: '/assets/images/creative-agency/gallery/visual identity.jpg',
         stats: {
             projects: 60,
             satisfaction: 100
@@ -121,7 +121,7 @@ export const servicesData: Record<string, ServiceData> = {
             'Reels & TikTok Creation',
             'Scriptwriting & Storyboarding'
         ],
-        image: '/assets/images/pages/service/single-service1.jpg',
+        image: '/assets/images/creative-agency/gallery/video editing.jpg',
         stats: {
             projects: 50,
             satisfaction: 97
@@ -152,7 +152,7 @@ export const servicesData: Record<string, ServiceData> = {
             'Conversion Rate Optimization',
             'Analytics & Reporting'
         ],
-        image: '/assets/images/pages/service/single-service1.jpg',
+        image: '/assets/images/creative-agency/gallery/digital marketing.jpg',
         stats: {
             projects: 150,
             satisfaction: 96
@@ -183,7 +183,7 @@ export const servicesData: Record<string, ServiceData> = {
             'Influencer Partnerships',
             'Social Listening & Analytics'
         ],
-        image: '/assets/images/pages/service/single-service1.jpg',
+        image: '/assets/images/creative-agency/gallery/socialmediamarketing.jpg',
         stats: {
             projects: 100,
             satisfaction: 98

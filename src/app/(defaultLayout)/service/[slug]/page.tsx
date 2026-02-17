@@ -5,7 +5,7 @@ import ServiceProcess from '../../../Components/ServiceDetails/ServiceProcess';
 import ServiceBenefits from '../../../Components/ServiceDetails/ServiceBenefits';
 import BreadCumb from '../../../Components/Common/BreadCumb';
 import Brand4 from '../../../Components/Brand/Brand4';
-import Pricing1 from '../../../Components/Pricing/Pricing1';
+
 import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
@@ -68,7 +68,7 @@ const ServiceDetailsPage = async ({ params }: PageProps) => {
             <ServiceOverview service={service} />
             <ServiceProcess service={service} />
             <ServiceBenefits service={service} />
-            <Pricing1></Pricing1>
+
             <Brand4></Brand4>
         </div>
     );
