@@ -48,12 +48,12 @@ const Brand4 = () => {
     };
 
     const clientFiles = [
-        'f127894032.jpg',
-        'f236927400.jpg',
-        'f265899768.jpg',
-        'WhatsApp Image 2026-02-01 at 14.06.38.jpeg',
-        'WhatsApp Image 2026-02-01 at 14.06.38 (1).jpeg',
-        'WhatsApp Image 2026-02-01 at 14.06.38 (2).jpeg',
+        'ecodeco.jpg',
+        'groupeicom.jpeg',
+        'lesbonprofs.jpg',
+        'masa2.jpeg',
+        'rodinacademy.jpg',
+        'wedocontent.jpeg',
     ];
 
     const brandContent = clientFiles.map((file) => ({
@@ -65,7 +65,7 @@ const Brand4 = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        
+
                         <div className="section-title text-center mb-40 pf_zoomIn">
                             <span className="sub-title">Our Client</span>
                             <h2>Trusted Industry Leader</h2>

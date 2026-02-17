@@ -20,7 +20,7 @@ const ReelsPacks = () => {
                             <div className="shape"><span></span></div>
                             <div className="pricing-head">
                                 <span className="plan">Pack Starter</span>
-                                <h2 className="price"><span className="currency"></span>4500 DHS HT</h2>
+                                <h2 className="price"><span className="currency"></span>6000 DHS HT</h2>
                             </div>
                             <div className="pricing-body">
                                 <ul className="check-list style-one">
@@ -44,7 +44,7 @@ const ReelsPacks = () => {
                             <div className="shape"><span></span></div>
                             <div className="pricing-head">
                                 <span className="plan">Pack Business</span>
-                                <h2 className="price"><span className="currency"></span>5900 DHS HT</h2>
+                                <h2 className="price"><span className="currency"></span>7000 DHS HT</h2>
                             </div>
                             <div className="pricing-body">
                                 <ul className="check-list style-one">
@@ -67,7 +67,7 @@ const ReelsPacks = () => {
                             <div className="shape"><span></span></div>
                             <div className="pricing-head">
                                 <span className="plan">Pack Booster</span>
-                                <h2 className="price"><span className="currency"></span>7900 DHS HT</h2>
+                                <h2 className="price"><span className="currency"></span>9000 DHS HT</h2>
                             </div>
                             <div className="pricing-body">
                                 <ul className="check-list style-one">

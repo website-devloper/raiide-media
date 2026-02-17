@@ -6,40 +6,40 @@ import Slider from 'react-slick';
 
 const testimonialContent = [
     {
-        title: 'Sara Benali',
-        subtitle: 'Podcast Host',
+        title: 'We Do Content',
+        subtitle: 'Content Agency',
         content: 'Tbarkellah 3likoum, khedma nqiya o f lwaqt. Recommandé bzaf! L\'équipe Raiide Media top',
-        imageName: 'sara-benali.jpeg',
+        imageName: 'wedocontent.jpeg',
     },
     {
-        title: 'Youssef Rahimi',
-        subtitle: 'Founder, Local Brand',
+        title: 'EcoDeco',
+        subtitle: 'Sustainable Design',
         content: 'Équipe très professionnelle. Ils ont su capturer l\'essence de notre marque. Très satisfaits du résultat final',
-        imageName: 'f236927400.jpg',
+        imageName: 'ecodeco.jpg',
     },
     {
-        title: 'Nadia El Idrissi',
-        subtitle: 'Marketing Manager',
+        title: 'Groupe Icom',
+        subtitle: 'Corporate Group',
         content: 'Chno ghadi ngoul, Top niveau! Un service très professionnel o l\'équipe dima disponible. Merci Raiide Media!',
-        imageName: 'f265899768.jpg',
+        imageName: 'groupeicom.jpeg',
     },
     {
-        title: 'Ilham Zoujya',
-        subtitle: 'Media Presenter',
+        title: 'Les Bon Profs',
+        subtitle: 'Education Platform',
         content: 'L\'content li darna m3ahoum khela lina brand dialna tban ktr. Bravo 3likoum, khedma dyal lme39oul',
-        imageName: 'WhatsApp Image 2026-02-01 at 14.06.38.jpeg',
+        imageName: 'lesbonprofs.jpg',
     },
     {
-        title: 'Hajar El Ami',
-        subtitle: 'Content Creator',
+        title: 'Masa',
+        subtitle: 'Retail Brand',
         content: 'Franchement, la qualité est incroyable. Je recommande vivement l\'agence!',
-        imageName: 'WhatsApp Image 2026-02-01 at 14.06.38 (1).jpeg',
+        imageName: 'masa2.jpeg',
     },
     {
-        title: 'Ayoub Khalid',
-        subtitle: 'Business Owner',
+        title: 'Rodin Academy',
+        subtitle: 'Art Academy',
         content: 'Kant tajriba zwina bzaf. Sma3 lina o fham chnou bghina exactement. Allah i3tikom saha',
-        imageName: 'WhatsApp Image 2026-02-01 at 14.06.38 (2).jpeg',
+        imageName: 'rodinacademy.jpg',
     },
 ];
 
@@ -126,8 +126,8 @@ const Testimonial1 = () => {
                                                         <Image
                                                             src={`/assets/images/creative-agency/Our clients/${encodeURIComponent(item.imageName)}`}
                                                             alt={item.title}
-                                                            width={58}
-                                                            height={58}
+                                                            width={95}
+                                                            height={95}
                                                         />
                                                     </div>
                                                     <div className="author-info">

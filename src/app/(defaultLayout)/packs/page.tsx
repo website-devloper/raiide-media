@@ -4,6 +4,7 @@ import ReelsPacks from '../../Components/Pricing/ReelsPacks'
 import PersonalBrandingPacks from '../../Components/Pricing/PersonalBrandingPacks'
 import PodcastPacks from '../../Components/Pricing/PodcastPacks'
 import VideoEditingPacks from '../../Components/Pricing/VideoEditingPacks'
+import AdditionalServices from '../../Components/Pricing/AdditionalServices'
 
 const PacksPage = () => {
     return (
@@ -13,6 +14,7 @@ const PacksPage = () => {
             <VideoEditingPacks />
             <PersonalBrandingPacks />
             <PodcastPacks />
+            <AdditionalServices />
         </div>
     )
 }

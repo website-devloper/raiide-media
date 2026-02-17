@@ -23,7 +23,7 @@ const PodcastPacks = () => {
                                 <div className="pricing-head">
                                     <span className="plan">Creator Pack</span>
                                     <h3 className="sub-heading">Recording</h3>
-                                    <h2 className="price"><span className="currency"></span>900 DHS HT / HOUR</h2>
+                                    <h2 className="price"><span className="currency"></span>1300 DHS HT / HOUR</h2>
                                 </div>
                                 <div className="pricing-body">
                                     <ul className="check-list style-one">
@@ -50,7 +50,7 @@ const PodcastPacks = () => {
                                 <div className="pricing-head">
                                     <span className="plan">Business Pack</span>
                                     <h3 className="sub-heading">Recording + Live Mixing</h3>
-                                    <h2 className="price"><span className="currency"></span>1300 DHS HT / HOUR</h2>
+                                    <h2 className="price"><span className="currency"></span>2300 DHS HT / HOUR</h2>
                                 </div>
                                 <div className="pricing-body">
                                     <ul className="check-list style-one">
@@ -82,7 +82,7 @@ const PodcastPacks = () => {
                                 <div className="pricing-head">
                                     <span className="plan">Premium Pack</span>
                                     <h3 className="sub-heading">Recording + Professional Editing</h3>
-                                    <h2 className="price"><span className="currency"></span>1500 DHS HT / HOUR</h2>
+                                    <h2 className="price"><span className="currency"></span>2500 DHS HT / HOUR</h2>
                                 </div>
                                 <div className="pricing-body">
                                     <ul className="check-list style-one">
@@ -130,7 +130,7 @@ const PodcastPacks = () => {
                                 <div className="pricing-head">
                                     <span className="plan">Podcaster Pack</span>
                                     <h3 className="sub-heading">Recording + Pro Editing + Teasers + Reels</h3>
-                                    <h2 className="price"><span className="currency"></span>5000 DHS HT</h2>
+                                    <h2 className="price"><span className="currency"></span>6000 DHS HT</h2>
                                 </div>
                                 <div className="pricing-body">
                                     <ul className="check-list style-one">
@@ -152,7 +152,7 @@ const PodcastPacks = () => {
                                 <div className="pricing-head">
                                     <span className="plan">Podcast 360° Pack</span>
                                     <h3 className="sub-heading">Recording + Pro Editing + Consulting + Branding + Teasers + Reels</h3>
-                                    <h2 className="price"><span className="currency"></span>8000 DHS HT</h2>
+                                    <h2 className="price"><span className="currency"></span>9000 DHS HT</h2>
                                 </div>
                                 <div className="pricing-body">
                                     <ul className="check-list style-one">
@@ -174,7 +174,7 @@ const PodcastPacks = () => {
                                 <div className="pricing-head">
                                     <span className="plan">Turnkey Podcast Pack</span>
                                     <h3 className="sub-heading">Recording + Pro Editing + Consulting + Branding + Teasers + Reels + YouTube Thumbs + Publishing</h3>
-                                    <h2 className="price"><span className="currency"></span>12 000 DHS HT</h2>
+                                    <h2 className="price"><span className="currency"></span>13 000 DHS HT</h2>
                                 </div>
                                 <div className="pricing-body">
                                     <ul className="check-list style-one">

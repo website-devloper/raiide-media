@@ -21,7 +21,7 @@ const PersonalBrandingPacks = () => {
                             <div className="shape"><span></span></div>
                             <div className="pricing-head">
                                 <span className="plan">Pack Essential</span>
-                                <h2 className="price"><span className="currency"></span>6500 DHS HT</h2>
+                                <h2 className="price"><span className="currency"></span>7500 DHS HT</h2>
                             </div>
                             <div className="pricing-body">
                                 <ul className="check-list style-one">
@@ -47,7 +47,7 @@ const PersonalBrandingPacks = () => {
                             <div className="shape"><span></span></div>
                             <div className="pricing-head">
                                 <span className="plan">Pack Content Builder</span>
-                                <h2 className="price"><span className="currency"></span>7900 DHS HT</h2>
+                                <h2 className="price"><span className="currency"></span>8900 DHS HT</h2>
                             </div>
                             <div className="pricing-body">
                                 <ul className="check-list style-one">
@@ -73,7 +73,7 @@ const PersonalBrandingPacks = () => {
                             <div className="shape"><span></span></div>
                             <div className="pricing-head">
                                 <span className="plan">Pack Authority Booster</span>
-                                <h2 className="price"><span className="currency"></span>9500 DHS HT</h2>
+                                <h2 className="price"><span className="currency"></span>10500 DHS HT</h2>
                             </div>
                             <div className="pricing-body">
                                 <ul className="check-list style-one">
