@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick';
 
 const testimonialContent = [
@@ -44,6 +44,8 @@ const testimonialContent = [
 ];
 
 const Testimonial1 = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+
     const settings = {
         dots: false,
         infinite: true,
@@ -54,6 +56,7 @@ const Testimonial1 = () => {
         swipeToSlide: true,
         autoplay: true,
         autoplaySpeed: 2600,
+        beforeChange: (_: number, next: number) => setCurrentSlide(next),
         responsive: [
             {
                 breakpoint: 1399,
@@ -94,8 +97,8 @@ const Testimonial1 = () => {
                         <div className="agk-image-box mb-50 pf_fadeup">
                             <div className="agk-image">
                                 <Image
-                                    src="/assets/images/creative-agency/Our clients/f127894032.jpg"
-                                    alt="Happy client"
+                                    src={`/assets/images/creative-agency/Our clients/${encodeURIComponent(testimonialContent[currentSlide].imageName)}`}
+                                    alt={testimonialContent[currentSlide].title}
                                     width={410}
                                     height={466}
                                 />
