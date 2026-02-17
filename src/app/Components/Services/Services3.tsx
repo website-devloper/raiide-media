@@ -15,13 +15,13 @@ const Services3 = () => {
 
                         <div className="section-title mb-50 pf_fadeup">
                             <span className="sub-heading">What We Do</span>
-                            <h2>Everything Your Brand Needs to Grow Online</h2>
+                            <h2>Complete Digital Services for Your Brand</h2>
                         </div>
                     </div>
                     <div className="col-lg-6">
 
                         <div className="text-box mb-50 pf_fadeup">
-                            <p>From brand strategy to content production and paid growth, we deliver <span>complete digital solutions</span> that help your business attract, engage, and convert the right audience.</p>
+                            <p>From brand strategy to content production and paid growth, we provide <span>complete digital solutions</span> that help your business attract, engage, and convert the right audience.</p>
                         </div>
                     </div>
                 </div>

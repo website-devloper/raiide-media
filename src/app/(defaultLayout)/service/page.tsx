@@ -9,6 +9,11 @@ import Testimonial1 from '../../Components/Testimonial/Testimonial1';
 import Cta1 from '../../Components/Cta/Cta1';
 import Brand4 from '../../Components/Brand/Brand4';
 
+export const metadata = {
+  title: 'Our Services | Raiide Media',
+  description: 'Professional digital services including content creation, branding, video production, photography, and digital marketing. Complete solutions to help your brand grow online.',
+};
+
 const page = () => {
   return (
     <div>

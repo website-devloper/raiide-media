@@ -1,0 +1,16 @@
+{
+    "name": "Raiide Media - Digital Agency",
+    "short_name": "Raiide Media",
+    "description": "Professional digital agency offering content creation, branding, video production, and digital marketing services.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#00ff00",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "any",
+            "type": "image/png"
+        }
+    ]
+}

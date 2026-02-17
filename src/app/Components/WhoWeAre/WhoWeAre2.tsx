@@ -6,9 +6,9 @@ const pillars = [
     {
         icon: 'bi-bar-chart-line-fill',
         tag: 'Strategy',
-        title: 'Business-Driven Planning',
+        title: 'Smart Business Planning',
         description:
-            'We start with goals, audience, and market insights to build clear roadmaps that connect creative work to measurable growth.',
+            'We start with your goals, target audience, and market research to create clear plans that connect creative work to real business growth.',
         color: 'var(--primary-color)',
     },
     {
@@ -16,7 +16,7 @@ const pillars = [
         tag: 'Content',
         title: 'Creative Production Studio',
         description:
-            'From social content to branded videos and campaigns, we produce visual assets that make your brand stand out and stay consistent.',
+            'From social media content to branded videos and campaigns, we create visual content that makes your brand stand out and stay consistent.',
         color: '#ff3e6c',
     },
     {
@@ -24,15 +24,15 @@ const pillars = [
         tag: 'Branding',
         title: 'Strong Visual Identity',
         description:
-            'We design cohesive identities including logo, colors, typography, and style systems that strengthen recognition across every channel.',
+            'We design complete brand identities including logo, colors, typography, and style guides that build brand recognition across every platform.',
         color: '#3b82f6',
     },
     {
         icon: 'bi-graph-up-arrow',
         tag: 'Performance',
-        title: 'Optimization & Scale',
+        title: 'Growth & Optimization',
         description:
-            'We track results, optimize campaigns, and continuously improve performance to increase reach, engagement, and conversion.',
+            'We track results, improve campaigns, and continuously optimize performance to increase reach, engagement, and conversions.',
         color: '#f97316',
     },
 ];
@@ -45,10 +45,10 @@ const WhoWeAre2 = () => {
                     <div className="col-lg-8">
                         <div className="section-title text-center mb-80 pf_fadeup">
                             <span className="sub-title">Who We Are</span>
-                            <h2 className="text-white">A Creative Digital Agency Built for Modern Brands</h2>
+                            <h2 className="text-white">A Creative Digital Agency for Modern Brands</h2>
                             <p className="mt-20 max-600 mx-auto text-muted">
-                                We combine <span className="text-white fw-bold">strategy, content, branding, and performance marketing</span> to help businesses grow with purpose.
-                                Our team turns ideas into digital experiences that connect with audiences and drive real results.
+                                We combine <span className="text-white fw-bold">strategy, content, branding, and marketing</span> to help businesses grow with purpose.
+                                Our team turns ideas into digital experiences that connect with people and deliver real results.
                             </p>
                         </div>
                     </div>

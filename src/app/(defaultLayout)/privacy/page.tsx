@@ -2,12 +2,17 @@ import React from 'react';
 import BreadCumb from '../../Components/Common/BreadCumb';
 import { siteContact } from '../../lib/siteContact';
 
+export const metadata = {
+  title: 'Privacy Policy | Raiide Media',
+  description: 'Learn how Raiide Media collects, uses, and protects your personal information. Read our privacy policy for complete details.',
+};
+
 const page = () => {
   return (
     <div>
       <BreadCumb
         Title="Privacy Policy"
-        content="Understand how we collect, use, and protect your personal information."
+        content="Learn how we collect, use, and protect your personal information."
       ></BreadCumb>
       <section className="pt-120 pb-100">
         <div className="container">
@@ -17,10 +22,10 @@ const page = () => {
                 <h3 className="mb-20">Privacy Notice</h3>
                 <p>
                   We collect contact information you submit through our forms to respond to inquiries
-                  and deliver services. We do not sell personal data to third parties.
+                  and provide services. We do not sell personal data to third parties.
                 </p>
                 <p>
-                  Analytics and cookies may be used to improve website performance and user
+                  We may use analytics and cookies to improve website performance and user
                   experience. You can disable cookies in your browser settings at any time.
                 </p>
                 <p className="mb-0">

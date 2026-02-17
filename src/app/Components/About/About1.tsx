@@ -12,12 +12,12 @@ const About1 = ({ variant = 'default' }: About1Props) => {
     const isAboutPage = variant === 'about';
 
     const heading = isAboutPage
-        ? 'Built for Brands That Want to Lead, Not Follow'
-        : "We Don't Just Market Brands, We Build Them";
+        ? 'For Brands Ready to Stand Out'
+        : "We Build Strong Brands That Last";
 
-    const descriptionOne = "RAIIDE MEDIA is a creative digital agency built on strategy, creativity, and performance.";
-    const descriptionTwo = "For over 4 years, we've partnered with ambitious brands to turn ideas into powerful digital experiences. We help businesses stand out and grow with confidence.";
-    const descriptionThree = "We believe great results come from clear strategy and bold creativity. Every project is carefully crafted, data-driven, and designed to deliver real impact.";
+    const descriptionOne = "Raiide Media is a creative digital agency focused on strategy, creativity, and results.";
+    const descriptionTwo = "For over 4 years, we've helped ambitious brands turn ideas into powerful digital experiences. We help businesses stand out and grow with confidence.";
+    const descriptionThree = "We believe great results come from clear strategy and bold creativity. Every project is carefully planned, data-driven, and designed to deliver real impact.";
 
     const ctaLabel = isAboutPage ? 'START YOUR PROJECT' : 'LEARN MORE';
     const ctaHref = isAboutPage ? '/contact' : '/about';

@@ -8,7 +8,6 @@ import Services3 from '../Components/Services/Services3';
 import ReelsShowcase from '../Components/Video/ReelsShowcase';
 import Project4 from '../Components/Project/Project4';
 import Process1 from '../Components/Process/Process1';
-import Team1 from '../Components/Team/Team1';
 import Faq1 from '../Components/Faq/Faq1';
 import WhoWeAre2 from '../Components/WhoWeAre/WhoWeAre2';
 import Testimonial1 from '../Components/Testimonial/Testimonial1';
@@ -21,7 +20,7 @@ import VideoEditingPacks from '../Components/Pricing/VideoEditingPacks';
 
 export const metadata = {
     title: 'Home | Raiide Media',
-    description: 'Grow your brand with Raiide Media, the all-in-one digital agency for content creation, strategy, and performance marketing. We help you dominate social media and scale your business.',
+    description: 'Professional digital agency for content creation, branding, video production, and digital marketing. We help brands grow online with creative solutions and smart strategy.',
 };
 
 const page = () => {

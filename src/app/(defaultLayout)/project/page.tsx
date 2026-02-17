@@ -4,12 +4,17 @@ import VisualIdentityShowcase from '../../Components/Project/VisualIdentityShowc
 import ReelsShowcase from '../../Components/Video/ReelsShowcase';
 import React from 'react';
 
+export const metadata = {
+  title: 'Portfolio | Raiide Media',
+  description: 'View our portfolio of digital projects including content creation, branding, video production, and marketing campaigns for clients across industries.',
+};
+
 const page = () => {
   return (
     <div>
       <BreadCumb
         Title="Portfolio"
-        content="Raiide Media empowers brands with strategy, content, and performance marketing solutions"
+        content="See our work - creative projects and successful campaigns for brands across different industries."
       />
       <Project4 />
       <VisualIdentityShowcase />

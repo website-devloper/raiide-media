@@ -19,9 +19,9 @@ export const servicesData: Record<string, ServiceData> = {
     'content-creation': {
         id: 'content-creation',
         title: 'Content Creation',
-        description: 'We craft compelling content that tells your brand story and drives engagement.',
-        longDescription1: 'We craft compelling content that tells your brand story. From ideation to execution, our team develops creative concepts, writes engaging copy, designs eye-catching visuals, and manages your content calendar. Every piece is strategically aligned with your brand voice and business goals to drive engagement and conversions.',
-        longDescription2: 'Our content creation process is data-driven and creative. We analyze your audience interests and market trends to produce content that resonates. Whether it\'s blog posts, social media updates, whitepapers, or newsletters, we ensure consistency and quality across all channels to build authority and trust.',
+        description: 'We create engaging content that tells your brand story and connects with your audience.',
+        longDescription1: 'We create engaging content that tells your brand story. From planning to execution, our team develops creative ideas, writes clear copy, designs attractive visuals, and manages your content calendar. Every piece matches your brand voice and business goals to increase engagement and results.',
+        longDescription2: 'Our content creation is both creative and data-driven. We study your audience and market trends to make content that works. Whether it\'s blog posts, social media updates, newsletters, or marketing materials, we ensure quality and consistency across all channels to build trust and authority.',
         features: [
             'Creative Concept Development',
             'Copywriting & storytelling',
@@ -35,8 +35,8 @@ export const servicesData: Record<string, ServiceData> = {
         },
         icon: 'bi-briefcase-fill',
         process: [
-            { title: 'Discovery', desc: 'Understanding your brand voice, audience, and goals.' },
-            { title: 'Strategy', desc: 'Developing a content calendar and creative themes.' },
+            { title: 'Discovery', desc: 'Understanding your brand, audience, and goals.' },
+            { title: 'Strategy', desc: 'Creating a content calendar and creative themes.' },
             { title: 'Production', desc: 'Creating high-quality visuals and copy.' },
             { title: 'Distribution', desc: 'Publishing and promoting across channels.' }
         ],
@@ -50,13 +50,13 @@ export const servicesData: Record<string, ServiceData> = {
     'photography': {
         id: 'photography',
         title: 'Photography',
-        description: 'Professional photography services that capture your brand essence.',
-        longDescription1: 'Professional photography services that capture your brand essence. We provide complete art direction, studio setup, product shoots, lifestyle photography, and campaign visuals. Each image is expertly edited and optimized for web, social media, and print to ensure your brand looks stunning everywhere.',
-        longDescription2: 'High-quality imagery is crucial for making a strong first impression. Our team of photographers and art directors work together to create visual narratives that highlight your products and services. We handle everything from location scouting and casting to post-production and retouching.',
+        description: 'Professional photography that captures your brand in the best light.',
+        longDescription1: 'Professional photography that showcases your brand. We provide art direction, studio setup, product photography, lifestyle shots, and campaign visuals. Each image is carefully edited and optimized for web, social media, and print to make your brand look great everywhere.',
+        longDescription2: 'High-quality photos are essential for making a strong first impression. Our photographers and art directors work together to create visuals that highlight your products and services. We handle everything from location scouting to final editing and retouching.',
         features: [
             'Product & Lifestyle Photography',
             'Art Direction & Styling',
-            'High-End Retouching',
+            'Professional Retouching',
             'Studio & On-Location Shoots'
         ],
         image: '/assets/images/creative-agency/gallery/photography.jpg',
@@ -66,10 +66,10 @@ export const servicesData: Record<string, ServiceData> = {
         },
         icon: 'bi-camera-fill',
         process: [
-            { title: 'Pre-Production', desc: 'Concept, styling, and location scouting.' },
-            { title: 'Shooting', desc: 'Professional direction and capture.' },
-            { title: 'Retouching', desc: 'High-end editing and color grading.' },
-            { title: 'Delivery', desc: 'Optimized files for all formats.' }
+            { title: 'Pre-Production', desc: 'Planning concept, styling, and location.' },
+            { title: 'Shooting', desc: 'Professional photography session.' },
+            { title: 'Retouching', desc: 'Expert editing and color grading.' },
+            { title: 'Delivery', desc: 'Optimized files for all your needs.' }
         ],
         benefits: [
             'Professional Image',
@@ -81,14 +81,14 @@ export const servicesData: Record<string, ServiceData> = {
     'visual-identity': {
         id: 'visual-identity',
         title: 'Visual Identity',
-        description: 'Build a memorable brand with our comprehensive visual identity design.',
-        longDescription1: 'Build a memorable brand with our comprehensive visual identity design. We create complete brand systems including logo design, color palettes, typography, brand guidelines, and visual assets. Your brand will have a cohesive, professional look that stands out and resonates with your target audience.',
-        longDescription2: 'A strong visual identity is the foundation of brand recognition. We dive deep into your brand values and mission to translate them into visual elements using psychology of color and shape. The result is a flexible design system that scales with your business and maintains consistency across all touchpoints.',
+        description: 'Build a memorable brand with professional visual identity design.',
+        longDescription1: 'Build a memorable brand with professional visual identity design. We create complete brand systems including logo design, color palettes, typography, brand guidelines, and visual materials. Your brand will have a professional look that stands out and connects with your target audience.',
+        longDescription2: 'A strong visual identity is the foundation of brand recognition. We explore your brand values and goals to create visual elements that represent your business. The result is a flexible design system that grows with your business and stays consistent across all platforms.',
         features: [
             'Logo Design & Branding',
             'Color Palette & Typography',
             'Brand Guidelines (Style Guides)',
-            'Marketing Collateral Design'
+            'Marketing Material Design'
         ],
         image: '/assets/images/creative-agency/gallery/visual identity.jpg',
         stats: {
@@ -97,10 +97,10 @@ export const servicesData: Record<string, ServiceData> = {
         },
         icon: 'bi-palette-fill',
         process: [
-            { title: 'Research', desc: 'Market analysis and competitor audit.' },
-            { title: 'Concept', desc: 'Logo sketches and color exploration.' },
-            { title: 'Design', desc: 'Creating the full visual system.' },
-            { title: 'Guidelines', desc: 'Documenting usage rules.' }
+            { title: 'Research', desc: 'Market research and competitor review.' },
+            { title: 'Concept', desc: 'Logo ideas and color exploration.' },
+            { title: 'Design', desc: 'Creating the complete visual system.' },
+            { title: 'Guidelines', desc: 'Creating usage documentation.' }
         ],
         benefits: [
             'Memorable Recognition',
@@ -112,9 +112,9 @@ export const servicesData: Record<string, ServiceData> = {
     'content-video': {
         id: 'content-video',
         title: 'Content Video',
-        description: 'Bring your brand to life with high-quality video content.',
-        longDescription1: 'Bring your brand to life with high-quality video content. From concept development to final editing, we produce engaging reels, promotional videos, ads, tutorials, and branded storytelling. Our videos combine creative direction, professional filming, motion graphics, and sound design to captivate your audience.',
-        longDescription2: 'Video is the most powerful tool for engagement in the digital age. We create dynamic video strategies that work for social media algorithms and website conversions. Whether you need short-form Reels/TikToks or long-form documentary style brand stories, we deliver production quality that elevates your brand.',
+        description: 'Bring your brand to life with professional video content.',
+        longDescription1: 'Bring your brand to life with professional video content. From concept to final edit, we create engaging reels, promotional videos, ads, tutorials, and brand stories. Our videos combine creative direction, professional filming, motion graphics, and sound design to engage your audience.',
+        longDescription2: 'Video is one of the most effective ways to connect with your audience. We create video strategies that work on social media and websites. Whether you need short-form Reels/TikToks or longer brand stories, we deliver professional quality that makes your brand stand out.',
         features: [
             'Video Production & Editing',
             'Motion Graphics & Animation',
@@ -128,24 +128,24 @@ export const servicesData: Record<string, ServiceData> = {
         },
         icon: 'bi-camera-reels-fill',
         process: [
-            { title: 'Storyboard', desc: 'Scripting and visual planning.' },
-            { title: 'Filming', desc: 'On-set production with crew.' },
-            { title: 'Post-Production', desc: 'Editing, VFX, and Sound Design.' },
-            { title: 'Final Cut', desc: 'Revisions and format export.' }
+            { title: 'Storyboard', desc: 'Script and visual planning.' },
+            { title: 'Filming', desc: 'Professional video production.' },
+            { title: 'Post-Production', desc: 'Editing, effects, and sound design.' },
+            { title: 'Final Cut', desc: 'Revisions and final delivery.' }
         ],
         benefits: [
             'Higher Retention',
             'Emotional Impact',
-            'Complex Ideas Simplified',
-            'Social algorithm favor'
+            'Explains Ideas Clearly',
+            'Social Media Friendly'
         ]
     },
     'digital-marketing': {
         id: 'digital-marketing',
         title: 'Digital Marketing',
-        description: 'Drive measurable growth with data-driven digital marketing strategies.',
-        longDescription1: 'Drive measurable growth with data-driven digital marketing strategies. We optimize your online presence through SEO, paid advertising campaigns, conversion funnels, and performance analytics. Our approach focuses on increasing visibility, generating qualified leads, and maximizing your ROI across all digital channels.',
-        longDescription2: 'Marketing without data is just guessing. We implement comprehensive tracking and analytics to understand user behavior and optimize campaigns in real-time. From Google Ads and Facebook Ads to email marketing automation, we build integrated systems that turn traffic into revenue.',
+        description: 'Grow your business with smart, data-driven digital marketing.',
+        longDescription1: 'Grow your business with smart digital marketing strategies. We improve your online presence through SEO, paid advertising, conversion optimization, and performance tracking. Our approach focuses on increasing visibility, generating quality leads, and maximizing your return on investment.',
+        longDescription2: 'Effective marketing uses data to make smart decisions. We track and analyze results to understand user behavior and improve campaigns continuously. From Google Ads and Facebook Ads to email marketing, we build systems that turn visitors into customers.',
         features: [
             'SEO & SEM Strategy',
             'Paid Social Advertising',
@@ -159,10 +159,10 @@ export const servicesData: Record<string, ServiceData> = {
         },
         icon: 'bi-megaphone-fill',
         process: [
-            { title: 'Audit', desc: 'Analyzing current performance.' },
-            { title: 'Strategy', desc: 'Channel selection and budget planning.' },
-            { title: 'Execution', desc: 'Campaign setup and launch.' },
-            { title: 'Optimization', desc: 'Ongoing testing and refinement.' }
+            { title: 'Audit', desc: 'Reviewing current performance.' },
+            { title: 'Strategy', desc: 'Planning channels and budget.' },
+            { title: 'Execution', desc: 'Setting up and launching campaigns.' },
+            { title: 'Optimization', desc: 'Testing and improving results.' }
         ],
         benefits: [
             'Measurable ROI',
@@ -174,9 +174,9 @@ export const servicesData: Record<string, ServiceData> = {
     'social-media-marketing': {
         id: 'social-media-marketing',
         title: 'Social Media Marketing',
-        description: 'Grow your social presence with strategic social media management.',
-        longDescription1: 'Grow your social presence with strategic social media management. We develop platform-specific strategies, create monthly content calendars, engage with your community, run targeted campaigns, and analyze performance metrics. Our goal is to build an authentic, engaged audience that converts into loyal customers.',
-        longDescription2: 'Social media is where your customers live. We help you join the conversation with authentic content and active community management. We stay ahead of trends and platform updates to ensure your brand remains relevant and top-of-mind for your target demographic.',
+        description: 'Build your social media presence with smart strategy and management.',
+        longDescription1: 'Build your social media presence with professional management. We create platform-specific strategies, plan monthly content calendars, engage with your community, run targeted campaigns, and track performance. Our goal is to build an authentic, engaged audience that becomes loyal customers.',
+        longDescription2: 'Social media is where your customers spend time. We help you connect with them through authentic content and active community engagement. We stay current with trends and platform changes to keep your brand relevant and memorable to your target audience.',
         features: [
             'Platform Strategy (IG, LinkedIn, TikTok)',
             'Community Management',
@@ -190,16 +190,16 @@ export const servicesData: Record<string, ServiceData> = {
         },
         icon: 'bi-share-fill',
         process: [
-            { title: 'Strategy', desc: 'Platform and content pillar definition.' },
-            { title: 'Creation', desc: 'Monthly content batch production.' },
+            { title: 'Strategy', desc: 'Planning platform and content themes.' },
+            { title: 'Creation', desc: 'Creating monthly content batches.' },
             { title: 'Management', desc: 'Posting and community engagement.' },
-            { title: 'Reporting', desc: 'Monthly performance insights.' }
+            { title: 'Reporting', desc: 'Monthly performance reports.' }
         ],
         benefits: [
             'Brand Loyalty',
             'Customer Insight',
             'Direct Communication',
-            'Viral Potential'
+            'Growth Potential'
         ]
     }
 };

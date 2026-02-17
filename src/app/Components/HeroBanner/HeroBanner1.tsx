@@ -15,8 +15,8 @@ const HeroBanner1 = () => {
                                 <h1 className="text-anm" data-aos="fade-right" data-aos-delay="80"><span>RAIIDE</span></h1>
                                 <div className="big-text text-anm" data-aos="fade-left" data-aos-delay="160">MEDIA</div>
                                 <div className="text-box pf_zoomIn" data-aos="zoom-in-up" data-aos-delay="240">
-                                    <p className="hero-lead">We Build Digital Experiences That Make Brands Grow.</p>
-                                    <p>A creative digital agency with 4+ years of experience in digital marketing, content creation, video editing, and brand strategy. We help brands stand out, connect, and convert.</p>
+                                    <p className="hero-lead">We Help Brands Grow Online</p>
+                                    <p>A creative digital agency with 4+ years of experience in digital marketing, content creation, video editing, and brand strategy. We help brands connect with customers and get results.</p>
                                 </div>
                                 <div className="element" data-aos="zoom-in" data-aos-delay="300"><span> <Image className="rotate360" src="/assets/images/creative-agency/hero/element.png" alt="img" width={120} height={120} /></span></div>
                                 <div className="hero-button pf_fadeup" data-aos="fade-up" data-aos-delay="360">

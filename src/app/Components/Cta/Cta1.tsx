@@ -12,7 +12,7 @@ const Cta1 = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="section-title mb-30 pf_fadeup">
-                                <h2>Ready to launch your next project?</h2>
+                                <h2>Ready to Start Your Next Project?</h2>
                                 <p className="mb-0">
                                     {siteContact.divisions} | {siteContact.services.join(' | ')}
                                 </p>
