@@ -134,7 +134,7 @@ export default function RootLayout({ children }: any) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className={`${source_sans.variable} ${roboto.variable}`}>
+      <body className={`${source_sans.variable} ${roboto.variable}`} suppressHydrationWarning>
         <AosInit />
         {children}
       </body>

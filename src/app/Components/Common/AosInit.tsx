@@ -86,8 +86,11 @@ const AosInit = () => {
             mirror: false,
         });
 
-        applyGlobalAos();
-        AOS.refreshHard();
+        // Ensure applyGlobalAos runs after hydration is stable
+        const handle = requestAnimationFrame(() => {
+            applyGlobalAos();
+            AOS.refreshHard();
+        });
 
         const observer = new MutationObserver(() => {
             applyGlobalAos();
@@ -100,6 +103,7 @@ const AosInit = () => {
         });
 
         return () => {
+            cancelAnimationFrame(handle);
             observer.disconnect();
         };
     }, [pathname]);
