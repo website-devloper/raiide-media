@@ -12,11 +12,6 @@ import Faq1 from '../Components/Faq/Faq1';
 import WhoWeAre2 from '../Components/WhoWeAre/WhoWeAre2';
 import Testimonial1 from '../Components/Testimonial/Testimonial1';
 import Cta1 from '../Components/Cta/Cta1';
-import ReelsPacks from '../Components/Pricing/ReelsPacks';
-import PersonalBrandingPacks from '../Components/Pricing/PersonalBrandingPacks';
-import PodcastPacks from '../Components/Pricing/PodcastPacks';
-
-import VideoEditingPacks from '../Components/Pricing/VideoEditingPacks';
 
 export const metadata = {
     title: 'Home | Raiide Media',
@@ -32,14 +27,6 @@ const page = () => {
             {/* 2. Services - What we offer (core value proposition) */}
             <div className="home2-band home2-band-services">
                 <Services3></Services3>
-            </div>
-
-            {/* 3. Pricing Packs - Show packages and pricing (critical for conversions) */}
-            <div className="home2-band home2-band-packs">
-                <ReelsPacks></ReelsPacks>
-                <VideoEditingPacks></VideoEditingPacks>
-                <PersonalBrandingPacks></PersonalBrandingPacks>
-                <PodcastPacks></PodcastPacks>
             </div>
 
             {/* 4. Portfolio - Showcase our work (proof of quality) */}
